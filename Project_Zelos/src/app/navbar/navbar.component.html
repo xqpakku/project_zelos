@@ -1,9 +1,23 @@
-<p>
   <mat-toolbar>
-    <span>Project Zelos</span>
+    <span class="clickable" routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">Project Zelos</span>
+
     <span class="spacer"></span>
-      <button mat-icon-button class="example-icon" >
-        <mat-icon>menu</mat-icon>
-        </button>
+
+    <span class="option clickable" routerLink="/kalender" routerLinkActive="active" ariaCurrentWhenActive="page">Kalender</span>
+
+    <span class="spacer"></span>
+
+    <span class="option clickable" routerLink="/ziele" routerLinkActive="active" ariaCurrentWhenActive="page">Ziele</span>
+
+    <span class="spacer"></span>
+
+    <span class="option clickable" routerLink="/boosts" routerLinkActive="active" ariaCurrentWhenActive="page" >Boosts</span>
+
+    <span class="spacer"></span>
+
+    <span style="transform: translateX(-3px); font-size: 17px; display: inline-block;">
+      <mat-icon style="transform: translateY(3px) !important">person_outline</mat-icon>
+    </span>
+
     </mat-toolbar>
-</p>
+

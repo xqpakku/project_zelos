@@ -6,3 +6,11 @@ mat-toolbar{
 .spacer{
   flex: 1 1 auto;
 }
+
+.option{
+  display: inline-block;
+  transform: translate(19px, 2px);
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  font-size: 17px;
+}
